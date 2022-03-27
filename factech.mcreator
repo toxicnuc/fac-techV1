@@ -5,7 +5,7 @@
       "name": "Copper_OreIngot",
       "type": "item",
       "sortid": 4,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {}
     },
@@ -13,7 +13,7 @@
       "name": "Copper_OreOreBlock",
       "type": "block",
       "sortid": 3,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {}
     },
@@ -45,7 +45,7 @@
       "name": "Copper_OreOre",
       "type": "block",
       "sortid": 2,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {}
     }
