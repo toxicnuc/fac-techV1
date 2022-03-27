@@ -1,0 +1,13 @@
+{
+  "group": "factech",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "factech:copper_oreoreblock"
+    }
+  ],
+  "result": {
+    "item": "factech:copper_oreingot",
+    "count": 9
+  }
+}

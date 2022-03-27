@@ -1,0 +1,11 @@
+{
+  "group": "factech",
+  "type": "minecraft:smelting",
+  "experience": 1.0499999999999998,
+  "ingredient": {
+    "item": "factech:copper_oreore"
+  },
+  "result": {
+    "item": "factech:copper_oreingot"
+  }
+}
