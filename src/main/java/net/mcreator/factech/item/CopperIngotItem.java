@@ -11,11 +11,11 @@ import net.minecraft.block.BlockState;
 import net.mcreator.factech.FactechElements;
 
 @FactechElements.ModElement.Tag
-public class Copper_OreIngotItem extends FactechElements.ModElement {
-	@ObjectHolder("factech:copper_oreingot")
+public class CopperIngotItem extends FactechElements.ModElement {
+	@ObjectHolder("factech:copperingot")
 	public static final Item block = null;
-	public Copper_OreIngotItem(FactechElements instance) {
-		super(instance, 4);
+	public CopperIngotItem(FactechElements instance) {
+		super(instance, 3);
 	}
 
 	@Override
@@ -25,7 +25,7 @@ public class Copper_OreIngotItem extends FactechElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64));
-			setRegistryName("copper_oreingot");
+			setRegistryName("copperingot");
 		}
 
 		@Override

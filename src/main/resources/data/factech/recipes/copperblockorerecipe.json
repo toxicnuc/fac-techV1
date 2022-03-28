@@ -3,11 +3,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "factech:copper_oreoreblock"
+      "item": "factech:copperoreblock"
     }
   ],
   "result": {
-    "item": "factech:copper_oreingot",
+    "item": "factech:copperingot",
     "count": 9
   }
 }

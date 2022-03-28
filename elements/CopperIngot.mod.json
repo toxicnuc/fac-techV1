@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "copper_ore_ingot",
+    "texture": "copper_ingot",
     "customModelName": "Normal",
-    "name": "Copper_Ore",
+    "name": "Copper",
     "creativeTab": {
       "value": "MISC"
     },

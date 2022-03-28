@@ -2,31 +2,39 @@
   "id_map": {},
   "mod_elements": [
     {
-      "name": "Copper_OreIngot",
-      "type": "item",
-      "sortid": 4,
+      "name": "CopperOre",
+      "type": "block",
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "ids": {}
     },
     {
-      "name": "Copper_OreOreBlock",
+      "name": "CopperOreBlock",
       "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CopperIngot",
+      "type": "item",
       "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "ids": {}
     },
     {
-      "name": "Copper_OreBlockOreRecipe",
+      "name": "CopperOreBlockRecipe",
       "type": "recipe",
-      "sortid": 6,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "ids": {}
     },
     {
-      "name": "Copper_OreOreBlockRecipe",
+      "name": "CopperBlockOreRecipe",
       "type": "recipe",
       "sortid": 5,
       "compiles": true,
@@ -34,17 +42,9 @@
       "ids": {}
     },
     {
-      "name": "Copper_OreOreSmelting",
+      "name": "CopperOreSmelting",
       "type": "recipe",
-      "sortid": 7,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "Copper_OreOre",
-      "type": "block",
-      "sortid": 2,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -54,10 +54,10 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.factech.copper_oreoreblock": "Block of Copper_Ore",
-      "item.factech.copper_oreingot": "Copper_Ore",
-      "block.factech.test": "Test",
-      "block.factech.copper_oreore": "Copper_Ore Ore"
+      "block.factech.copperore": "Copper Ore",
+      "item.factech.copperingot": "Copper",
+      "block.factech.copperoreblock": "Block of Copper",
+      "block.factech.test": "Test"
     }
   },
   "workspaceSettings": {

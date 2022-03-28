@@ -21,7 +21,7 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:Copper_OreOreBlock"
+        "value": "CUSTOM:CopperOreBlock"
       },
       {
         "value": ""
@@ -37,9 +37,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Copper_OreIngot"
+      "value": "CUSTOM:CopperIngot"
     },
-    "name": "copper_oreblockorerecipe",
+    "name": "copperblockorerecipe",
     "namespace": "mod"
   }
 }

@@ -1,0 +1,42 @@
+{
+  "group": "factech",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "factech:copperingot"
+    },
+    "1": {
+      "item": "factech:copperingot"
+    },
+    "2": {
+      "item": "factech:copperingot"
+    },
+    "3": {
+      "item": "factech:copperingot"
+    },
+    "4": {
+      "item": "factech:copperingot"
+    },
+    "5": {
+      "item": "factech:copperingot"
+    },
+    "6": {
+      "item": "factech:copperingot"
+    },
+    "7": {
+      "item": "factech:copperingot"
+    },
+    "8": {
+      "item": "factech:copperingot"
+    }
+  },
+  "result": {
+    "item": "factech:copperoreblock",
+    "count": 1
+  }
+}

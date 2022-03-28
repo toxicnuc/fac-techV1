@@ -27,7 +27,7 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.factech.item.Copper_OreIngotItem;
+import net.mcreator.factech.item.CopperIngotItem;
 import net.mcreator.factech.FactechElements;
 
 import java.util.Random;
@@ -35,11 +35,11 @@ import java.util.List;
 import java.util.Collections;
 
 @FactechElements.ModElement.Tag
-public class Copper_OreOreBlock extends FactechElements.ModElement {
-	@ObjectHolder("factech:copper_oreore")
+public class CopperOreBlock extends FactechElements.ModElement {
+	@ObjectHolder("factech:copperore")
 	public static final Block block = null;
-	public Copper_OreOreBlock(FactechElements instance) {
-		super(instance, 2);
+	public CopperOreBlock(FactechElements instance) {
+		super(instance, 1);
 	}
 
 	@Override
@@ -52,7 +52,7 @@ public class Copper_OreOreBlock extends FactechElements.ModElement {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(4.5f, 6.915809336112958f).lightValue(0)
 					.harvestLevel(3).harvestTool(ToolType.PICKAXE));
-			setRegistryName("copper_oreore");
+			setRegistryName("copperore");
 		}
 
 		@Override
@@ -60,7 +60,7 @@ public class Copper_OreOreBlock extends FactechElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(Copper_OreIngotItem.block, (int) (1)));
+			return Collections.singletonList(new ItemStack(CopperIngotItem.block, (int) (1)));
 		}
 	}
 	@Override
@@ -77,7 +77,7 @@ public class Copper_OreOreBlock extends FactechElements.ModElement {
 						return false;
 					return super.place(world, generator, rand, pos, config);
 				}
-			}, new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("copper_oreore", "copper_oreore", blockAt -> {
+			}, new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("copperore", "copperore", blockAt -> {
 				boolean blockCriteria = false;
 				if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
 					blockCriteria = true;

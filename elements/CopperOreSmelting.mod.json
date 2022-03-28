@@ -40,12 +40,12 @@
       "value": ""
     },
     "smeltingInputStack": {
-      "value": "CUSTOM:Copper_OreOre"
+      "value": "CUSTOM:CopperOre"
     },
     "smeltingReturnStack": {
-      "value": "CUSTOM:Copper_OreIngot"
+      "value": "CUSTOM:CopperIngot"
     },
-    "name": "copper_oreoresmelting",
+    "name": "copperoresmelting",
     "namespace": "mod"
   }
 }

@@ -3,9 +3,9 @@
   "type": "minecraft:smelting",
   "experience": 1.0499999999999998,
   "ingredient": {
-    "item": "factech:unknown_element"
+    "item": "factech:copperore"
   },
   "result": {
-    "item": "factech:copper_oreingot"
+    "item": "factech:copperingot"
   }
 }

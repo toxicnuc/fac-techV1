@@ -1,6 +1,6 @@
 {
-  "block.factech.copper_oreoreblock": "Block of Copper_Ore",
-  "item.factech.copper_oreingot": "Copper_Ore",
-  "block.factech.test": "Test",
-  "block.factech.copper_oreore": "Copper_Ore Ore"
+  "block.factech.copperore": "Copper Ore",
+  "item.factech.copperingot": "Copper",
+  "block.factech.copperoreblock": "Block of Copper",
+  "block.factech.test": "Test"
 }

@@ -20,11 +20,11 @@ import java.util.List;
 import java.util.Collections;
 
 @FactechElements.ModElement.Tag
-public class Copper_OreOreBlockBlock extends FactechElements.ModElement {
-	@ObjectHolder("factech:copper_oreoreblock")
+public class CopperOreBlockBlock extends FactechElements.ModElement {
+	@ObjectHolder("factech:copperoreblock")
 	public static final Block block = null;
-	public Copper_OreOreBlockBlock(FactechElements instance) {
-		super(instance, 3);
+	public CopperOreBlockBlock(FactechElements instance) {
+		super(instance, 2);
 	}
 
 	@Override
@@ -37,7 +37,7 @@ public class Copper_OreOreBlockBlock extends FactechElements.ModElement {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(5f, 10f).lightValue(0).harvestLevel(3)
 					.harvestTool(ToolType.PICKAXE));
-			setRegistryName("copper_oreoreblock");
+			setRegistryName("copperoreblock");
 		}
 
 		@Override
