@@ -5,7 +5,7 @@
       "name": "Copper_OreIngot",
       "type": "item",
       "sortid": 4,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {}
     },
@@ -13,7 +13,7 @@
       "name": "Copper_OreOreBlock",
       "type": "block",
       "sortid": 3,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {}
     },
@@ -45,7 +45,7 @@
       "name": "Copper_OreOre",
       "type": "block",
       "sortid": 2,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {}
     }
@@ -54,7 +54,10 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.factech.test": "Test"
+      "block.factech.copper_oreoreblock": "Block of Copper_Ore",
+      "item.factech.copper_oreingot": "Copper_Ore",
+      "block.factech.test": "Test",
+      "block.factech.copper_oreore": "Copper_Ore Ore"
     }
   },
   "workspaceSettings": {

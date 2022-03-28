@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "factech:blocks/copper_ore_ore",
-    "particle": "factech:blocks/copper_ore_ore"
+    "all": "factech:blocks/copper_ore_template",
+    "particle": "factech:blocks/copper_ore_template"
   }
 }
