@@ -1,6 +1,9 @@
 {
+  "block.factech.siliconoreblock": "Block of Silicon",
+  "item.factech.silicongem": "Silicon",
   "block.factech.copperore": "Copper Ore",
   "item.factech.copperingot": "Copper",
   "block.factech.copperoreblock": "Block of Copper",
-  "block.factech.test": "Test"
+  "block.factech.test": "Test",
+  "block.factech.siliconore": "Silicon Ore"
 }

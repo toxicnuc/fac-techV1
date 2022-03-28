@@ -48,16 +48,51 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "SiliconOre",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SiliconOreBlock",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SiliconGem",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SiliconOreSmelting",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.factech.siliconoreblock": "Block of Silicon",
+      "item.factech.silicongem": "Silicon",
       "block.factech.copperore": "Copper Ore",
       "item.factech.copperingot": "Copper",
       "block.factech.copperoreblock": "Block of Copper",
-      "block.factech.test": "Test"
+      "block.factech.test": "Test",
+      "block.factech.siliconore": "Silicon Ore"
     }
   },
   "workspaceSettings": {
