@@ -1,0 +1,39 @@
+{
+  "group": "factech",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "factech:silveringot"
+    },
+    "1": {
+      "item": "minecraft:gold_ingot"
+    },
+    "2": {
+      "item": "minecraft:gold_ingot"
+    },
+    "3": {
+      "item": "factech:silveringot"
+    },
+    "5": {
+      "item": "minecraft:gold_ingot"
+    },
+    "6": {
+      "item": "factech:silveringot"
+    },
+    "7": {
+      "item": "factech:silveringot"
+    },
+    "8": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "factech:electrumingot",
+    "count": 4
+  }
+}

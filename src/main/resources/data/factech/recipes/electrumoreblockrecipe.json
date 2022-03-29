@@ -1,0 +1,42 @@
+{
+  "group": "factech",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "factech:electrumingot"
+    },
+    "1": {
+      "item": "factech:electrumingot"
+    },
+    "2": {
+      "item": "factech:electrumingot"
+    },
+    "3": {
+      "item": "factech:electrumingot"
+    },
+    "4": {
+      "item": "factech:electrumingot"
+    },
+    "5": {
+      "item": "factech:electrumingot"
+    },
+    "6": {
+      "item": "factech:electrumingot"
+    },
+    "7": {
+      "item": "factech:electrumingot"
+    },
+    "8": {
+      "item": "factech:electrumingot"
+    }
+  },
+  "result": {
+    "item": "factech:electrumoreblock",
+    "count": 1
+  }
+}
