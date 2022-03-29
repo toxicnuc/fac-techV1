@@ -27,6 +27,7 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.mcreator.factech.item.UraniumGemItem;
 import net.mcreator.factech.FactechElements;
 
 import java.util.Random;
@@ -34,11 +35,11 @@ import java.util.List;
 import java.util.Collections;
 
 @FactechElements.ModElement.Tag
-public class CopperOreBlock extends FactechElements.ModElement {
-	@ObjectHolder("factech:copperore")
+public class UraniumOreBlock extends FactechElements.ModElement {
+	@ObjectHolder("factech:uraniumore")
 	public static final Block block = null;
-	public CopperOreBlock(FactechElements instance) {
-		super(instance, 1);
+	public UraniumOreBlock(FactechElements instance) {
+		super(instance, 13);
 	}
 
 	@Override
@@ -49,9 +50,9 @@ public class CopperOreBlock extends FactechElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(4.5f, 6.915809336112958f).lightValue(0)
-					.harvestLevel(3).harvestTool(ToolType.PICKAXE));
-			setRegistryName("copperore");
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1.7999999999999998f, 3.3226990297448697f)
+					.lightValue(0).harvestLevel(1).harvestTool(ToolType.PICKAXE));
+			setRegistryName("uraniumore");
 		}
 
 		@Override
@@ -59,7 +60,7 @@ public class CopperOreBlock extends FactechElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
+			return Collections.singletonList(new ItemStack(UraniumGemItem.block, (int) (1)));
 		}
 	}
 	@Override
@@ -76,12 +77,12 @@ public class CopperOreBlock extends FactechElements.ModElement {
 						return false;
 					return super.place(world, generator, rand, pos, config);
 				}
-			}, new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("copperore", "copperore", blockAt -> {
+			}, new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("uraniumore", "uraniumore", blockAt -> {
 				boolean blockCriteria = false;
 				if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
 					blockCriteria = true;
 				return blockCriteria;
-			}), block.getDefaultState(), 4), Placement.COUNT_RANGE, new CountRangeConfig(7, 1, 1, 43)));
+			}), block.getDefaultState(), 11), Placement.COUNT_RANGE, new CountRangeConfig(17, 1, 1, 99)));
 		}
 	}
 }

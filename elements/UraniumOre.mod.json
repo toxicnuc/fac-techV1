@@ -2,7 +2,7 @@
   "_fv": 6,
   "_type": "block",
   "definition": {
-    "texture": "copper_ore_template",
+    "texture": "uranium_ore_template",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -20,10 +20,10 @@
     "My": 1.0,
     "Mz": 1.0,
     "faceShape": "SOLID",
-    "name": "Copper Ore",
+    "name": "Uranium Ore",
     "specialInfo": [],
-    "hardness": 4.5,
-    "resistance": 6.915809336112958,
+    "hardness": 1.7999999999999998,
+    "resistance": 3.3226990297448697,
     "hasGravity": false,
     "creativeTab": {
       "value": "BUILDING_BLOCKS"
@@ -31,7 +31,7 @@
     "destroyTool": "pickaxe",
     "affectedBySilkTouch": true,
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:UraniumGem"
     },
     "dropAmount": 1,
     "isBeaconBase": false,
@@ -60,7 +60,7 @@
     },
     "luminance": 0.0,
     "unbreakable": false,
-    "breakHarvestLevel": 3,
+    "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -86,9 +86,9 @@
         "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 7,
-    "frequencyOnChunk": 4,
+    "frequencyPerChunks": 17,
+    "frequencyOnChunk": 11,
     "minGenerateHeight": 1,
-    "maxGenerateHeight": 43
+    "maxGenerateHeight": 99
   }
 }

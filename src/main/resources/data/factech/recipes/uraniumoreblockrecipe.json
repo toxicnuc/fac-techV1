@@ -1,0 +1,42 @@
+{
+  "group": "factech",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "factech:uraniumgem"
+    },
+    "1": {
+      "item": "factech:uraniumgem"
+    },
+    "2": {
+      "item": "factech:uraniumgem"
+    },
+    "3": {
+      "item": "factech:uraniumgem"
+    },
+    "4": {
+      "item": "factech:uraniumgem"
+    },
+    "5": {
+      "item": "factech:uraniumgem"
+    },
+    "6": {
+      "item": "factech:uraniumgem"
+    },
+    "7": {
+      "item": "factech:uraniumgem"
+    },
+    "8": {
+      "item": "factech:uraniumgem"
+    }
+  },
+  "result": {
+    "item": "factech:uraniumoreblock",
+    "count": 1
+  }
+}

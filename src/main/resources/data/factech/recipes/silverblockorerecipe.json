@@ -1,0 +1,13 @@
+{
+  "group": "factech",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "factech:silveroreblock"
+    }
+  ],
+  "result": {
+    "item": "factech:silveringot",
+    "count": 9
+  }
+}

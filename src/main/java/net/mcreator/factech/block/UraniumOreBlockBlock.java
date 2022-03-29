@@ -3,13 +3,8 @@ package net.mcreator.factech.block;
 
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.common.ToolType;
-import net.minecraftforge.common.IPlantable;
 
 import net.minecraft.world.storage.loot.LootContext;
-import net.minecraft.world.IWorldReader;
-import net.minecraft.world.IBlockReader;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.Direction;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
@@ -25,11 +20,11 @@ import java.util.List;
 import java.util.Collections;
 
 @FactechElements.ModElement.Tag
-public class CopperOreBlockBlock extends FactechElements.ModElement {
-	@ObjectHolder("factech:copperoreblock")
+public class UraniumOreBlockBlock extends FactechElements.ModElement {
+	@ObjectHolder("factech:uraniumoreblock")
 	public static final Block block = null;
-	public CopperOreBlockBlock(FactechElements instance) {
-		super(instance, 2);
+	public UraniumOreBlockBlock(FactechElements instance) {
+		super(instance, 14);
 	}
 
 	@Override
@@ -40,19 +35,9 @@ public class CopperOreBlockBlock extends FactechElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(5f, 10f).lightValue(0).harvestLevel(3)
+			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(5f, 10f).lightValue(0).harvestLevel(1)
 					.harvestTool(ToolType.PICKAXE));
-			setRegistryName("copperoreblock");
-		}
-
-		@Override
-		public boolean isBeaconBase(BlockState state, IWorldReader world, BlockPos pos, BlockPos beacon) {
-			return true;
-		}
-
-		@Override
-		public boolean canSustainPlant(BlockState state, IBlockReader world, BlockPos pos, Direction direction, IPlantable plantable) {
-			return true;
+			setRegistryName("uraniumoreblock");
 		}
 
 		@Override

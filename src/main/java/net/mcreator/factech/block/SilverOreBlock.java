@@ -34,11 +34,11 @@ import java.util.List;
 import java.util.Collections;
 
 @FactechElements.ModElement.Tag
-public class CopperOreBlock extends FactechElements.ModElement {
-	@ObjectHolder("factech:copperore")
+public class SilverOreBlock extends FactechElements.ModElement {
+	@ObjectHolder("factech:silverore")
 	public static final Block block = null;
-	public CopperOreBlock(FactechElements instance) {
-		super(instance, 1);
+	public SilverOreBlock(FactechElements instance) {
+		super(instance, 19);
 	}
 
 	@Override
@@ -49,9 +49,9 @@ public class CopperOreBlock extends FactechElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(4.5f, 6.915809336112958f).lightValue(0)
-					.harvestLevel(3).harvestTool(ToolType.PICKAXE));
-			setRegistryName("copperore");
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(3f, 5f).lightValue(0).harvestLevel(2)
+					.harvestTool(ToolType.PICKAXE));
+			setRegistryName("silverore");
 		}
 
 		@Override
@@ -59,7 +59,7 @@ public class CopperOreBlock extends FactechElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
+			return Collections.singletonList(new ItemStack(SilverOreBlock.block, (int) (1)));
 		}
 	}
 	@Override
@@ -76,12 +76,12 @@ public class CopperOreBlock extends FactechElements.ModElement {
 						return false;
 					return super.place(world, generator, rand, pos, config);
 				}
-			}, new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("copperore", "copperore", blockAt -> {
+			}, new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("silverore", "silverore", blockAt -> {
 				boolean blockCriteria = false;
 				if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
 					blockCriteria = true;
 				return blockCriteria;
-			}), block.getDefaultState(), 4), Placement.COUNT_RANGE, new CountRangeConfig(7, 1, 1, 43)));
+			}), block.getDefaultState(), 7), Placement.COUNT_RANGE, new CountRangeConfig(11, 1, 1, 63)));
 		}
 	}
 }

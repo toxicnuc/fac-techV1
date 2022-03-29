@@ -1,0 +1,13 @@
+{
+  "group": "factech",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "factech:uraniumoreblock"
+    }
+  ],
+  "result": {
+    "item": "factech:uraniumgem",
+    "count": 9
+  }
+}

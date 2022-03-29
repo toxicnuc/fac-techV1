@@ -1,9 +1,15 @@
 {
+  "block.factech.silverore": "Silver Ore",
   "block.factech.siliconoreblock": "Block of Silicon",
+  "block.factech.uraniumoreblock": "Block of Uranium",
+  "block.factech.silveroreblock": "Block of Silver",
   "item.factech.silicongem": "Silicon",
+  "item.factech.uraniumgem": "Uranium",
+  "block.factech.test": "Test",
+  "block.factech.siliconore": "Silicon Ore",
+  "item.factech.silveringot": "Silver",
   "block.factech.copperore": "Copper Ore",
   "item.factech.copperingot": "Copper",
   "block.factech.copperoreblock": "Block of Copper",
-  "block.factech.test": "Test",
-  "block.factech.siliconore": "Silicon Ore"
+  "block.factech.uraniumore": "Uranium Ore"
 }

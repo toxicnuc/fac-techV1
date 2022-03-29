@@ -1,0 +1,11 @@
+{
+  "group": "factech",
+  "type": "minecraft:smelting",
+  "experience": 0.42,
+  "ingredient": {
+    "item": "factech:uraniumore"
+  },
+  "result": {
+    "item": "factech:uraniumgem"
+  }
+}

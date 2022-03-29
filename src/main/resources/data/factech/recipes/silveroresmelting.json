@@ -1,0 +1,11 @@
+{
+  "group": "factech",
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "ingredient": {
+    "item": "factech:silverore"
+  },
+  "result": {
+    "item": "factech:silveringot"
+  }
+}
