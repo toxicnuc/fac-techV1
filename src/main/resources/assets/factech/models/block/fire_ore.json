@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "factech:blocks/fire_element_template",
+    "up": "factech:blocks/fire_element_template",
+    "north": "factech:blocks/fire_element_template",
+    "east": "factech:blocks/fire_element_template",
+    "south": "factech:blocks/fire_element_template",
+    "west": "factech:blocks/fire_element_template",
+    "particle": "factech:blocks/fire_element_template"
+  }
+}

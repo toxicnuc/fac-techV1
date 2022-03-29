@@ -216,6 +216,15 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "Fireore",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fire_ore"
     }
   ],
   "variable_elements": [],
@@ -230,6 +239,7 @@
       "item.factech.silicongem": "Silicon",
       "item.factech.uraniumgem": "Uranium",
       "block.factech.test": "Test",
+      "block.factech.fire_ore": "Fireore",
       "block.factech.siliconore": "Silicon Ore",
       "item.factech.silveringot": "Silver",
       "item.factech.electrumingot": "Electrum",

@@ -5,10 +5,6 @@ import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.common.ToolType;
 
 import net.minecraft.world.storage.loot.LootContext;
-import net.minecraft.world.IWorldReader;
-import net.minecraft.world.IBlockReader;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.Direction;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
@@ -24,11 +20,11 @@ import java.util.List;
 import java.util.Collections;
 
 @FactechElements.ModElement.Tag
-public class ElectrumOreBlockBlock extends FactechElements.ModElement {
-	@ObjectHolder("factech:electrumoreblock")
+public class FireoreBlock extends FactechElements.ModElement {
+	@ObjectHolder("factech:fire_ore")
 	public static final Block block = null;
-	public ElectrumOreBlockBlock(FactechElements instance) {
-		super(instance, 27);
+	public FireoreBlock(FactechElements instance) {
+		super(instance, 31);
 	}
 
 	@Override
@@ -39,19 +35,9 @@ public class ElectrumOreBlockBlock extends FactechElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(5f, 10f).lightValue(0).harvestLevel(2)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).lightValue(0).harvestLevel(1)
 					.harvestTool(ToolType.PICKAXE));
-			setRegistryName("electrumoreblock");
-		}
-
-		@Override
-		public boolean isBeaconBase(BlockState state, IWorldReader world, BlockPos pos, BlockPos beacon) {
-			return true;
-		}
-
-		@Override
-		public boolean canConnectRedstone(BlockState state, IBlockReader world, BlockPos pos, Direction side) {
-			return true;
+			setRegistryName("fire_ore");
 		}
 
 		@Override

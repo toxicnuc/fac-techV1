@@ -2,14 +2,14 @@
   "_fv": 6,
   "_type": "block",
   "definition": {
-    "texture": "electrum_ore_block",
+    "texture": "fire_element_template",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 11,
-    "customModelName": "Single texture",
+    "renderType": 10,
+    "customModelName": "Normal",
     "rotationMode": 0,
     "hasTransparency": false,
     "transparencyType": "SOLID",
@@ -20,9 +20,9 @@
     "My": 1.0,
     "Mz": 1.0,
     "faceShape": "SOLID",
-    "name": "Block of Electrum",
+    "name": "Fireore",
     "specialInfo": [],
-    "hardness": 5.0,
+    "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "creativeTab": {
@@ -34,13 +34,13 @@
       "value": ""
     },
     "dropAmount": 1,
-    "isBeaconBase": true,
+    "isBeaconBase": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
-    "canProvidePower": true,
+    "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "IRON"
+      "value": "ROCK"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -56,11 +56,11 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "METAL"
+      "value": "STONE"
     },
     "luminance": 0.0,
     "unbreakable": false,
-    "breakHarvestLevel": 2,
+    "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -84,9 +84,9 @@
         "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
+    "frequencyPerChunks": 20,
+    "frequencyOnChunk": 30,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "maxGenerateHeight": 100
   }
 }
