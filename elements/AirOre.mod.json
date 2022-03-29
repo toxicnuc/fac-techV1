@@ -2,7 +2,7 @@
   "_fv": 6,
   "_type": "block",
   "definition": {
-    "texture": "fire_element_template",
+    "texture": "aerial_element_template",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -20,7 +20,7 @@
     "My": 1.0,
     "Mz": 1.0,
     "faceShape": "SOLID",
-    "name": "Fireore",
+    "name": "Air Ore",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -31,7 +31,7 @@
     "destroyTool": "pickaxe",
     "affectedBySilkTouch": true,
     "customDrop": {
-      "value": "CUSTOM:Firegem"
+      "value": "CUSTOM:Aerialgem"
     },
     "dropAmount": 5,
     "isBeaconBase": false,

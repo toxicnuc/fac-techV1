@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "factech:blocks/earth_element_template",
+    "up": "factech:blocks/earth_element_template",
+    "north": "factech:blocks/earth_element_template",
+    "east": "factech:blocks/earth_element_template",
+    "south": "factech:blocks/earth_element_template",
+    "west": "factech:blocks/earth_element_template",
+    "particle": "factech:blocks/earth_element_template"
+  }
+}

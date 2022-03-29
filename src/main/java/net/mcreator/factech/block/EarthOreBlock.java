@@ -14,18 +14,18 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.factech.item.FiregemItem;
+import net.mcreator.factech.item.EarthgemItem;
 import net.mcreator.factech.FactechElements;
 
 import java.util.List;
 import java.util.Collections;
 
 @FactechElements.ModElement.Tag
-public class FireoreBlock extends FactechElements.ModElement {
-	@ObjectHolder("factech:fire_ore")
+public class EarthOreBlock extends FactechElements.ModElement {
+	@ObjectHolder("factech:earthore")
 	public static final Block block = null;
-	public FireoreBlock(FactechElements instance) {
-		super(instance, 31);
+	public EarthOreBlock(FactechElements instance) {
+		super(instance, 34);
 	}
 
 	@Override
@@ -38,7 +38,7 @@ public class FireoreBlock extends FactechElements.ModElement {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).lightValue(0).harvestLevel(1)
 					.harvestTool(ToolType.PICKAXE));
-			setRegistryName("fire_ore");
+			setRegistryName("earthore");
 		}
 
 		@Override
@@ -46,7 +46,7 @@ public class FireoreBlock extends FactechElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(FiregemItem.block, (int) (5)));
+			return Collections.singletonList(new ItemStack(EarthgemItem.block, (int) (5)));
 		}
 	}
 }

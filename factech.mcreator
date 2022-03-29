@@ -225,13 +225,92 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "fire_ore"
+    },
+    {
+      "name": "WaterOre",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AirOre",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EarthOre",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Earthgem",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "WaterGem",
+      "type": "item",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Aerialgem",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Firegem",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ElementiumGem",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ElementiumOrbe",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.factech.waterore": "Water Ore",
+      "item.factech.aerialgem": "Aerialgem",
+      "item.factech.silveringot": "Silver",
+      "item.factech.electrumingot": "Electrum",
+      "block.factech.copperoreblock": "Block of Copper",
+      "block.factech.uraniumore": "Uranium Ore",
       "block.factech.silverore": "Silver Ore",
+      "item.factech.firegem": "Firegem",
       "block.factech.siliconoreblock": "Block of Silicon",
       "block.factech.uraniumoreblock": "Block of Uranium",
       "block.factech.electrumoreblock": "Block of Electrum",
@@ -241,12 +320,13 @@
       "block.factech.test": "Test",
       "block.factech.fire_ore": "Fireore",
       "block.factech.siliconore": "Silicon Ore",
-      "item.factech.silveringot": "Silver",
-      "item.factech.electrumingot": "Electrum",
+      "block.factech.earthore": "Earth Ore",
+      "item.factech.elementiumorbe": "Elementium Orbe",
       "block.factech.copperore": "Copper Ore",
+      "item.factech.watergem": "Water Gem",
       "item.factech.copperingot": "Copper",
-      "block.factech.copperoreblock": "Block of Copper",
-      "block.factech.uraniumore": "Uranium Ore"
+      "block.factech.airore": "Air Ore",
+      "item.factech.earthgem": "Earthgem"
     }
   },
   "workspaceSettings": {

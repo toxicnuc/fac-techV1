@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "factech:blocks/aerial_element_template",
+    "up": "factech:blocks/aerial_element_template",
+    "north": "factech:blocks/aerial_element_template",
+    "east": "factech:blocks/aerial_element_template",
+    "south": "factech:blocks/aerial_element_template",
+    "west": "factech:blocks/aerial_element_template",
+    "particle": "factech:blocks/aerial_element_template"
+  }
+}

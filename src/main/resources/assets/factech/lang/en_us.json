@@ -1,5 +1,12 @@
 {
+  "block.factech.waterore": "Water Ore",
+  "item.factech.aerialgem": "Aerialgem",
+  "item.factech.silveringot": "Silver",
+  "item.factech.electrumingot": "Electrum",
+  "block.factech.copperoreblock": "Block of Copper",
+  "block.factech.uraniumore": "Uranium Ore",
   "block.factech.silverore": "Silver Ore",
+  "item.factech.firegem": "Firegem",
   "block.factech.siliconoreblock": "Block of Silicon",
   "block.factech.uraniumoreblock": "Block of Uranium",
   "block.factech.electrumoreblock": "Block of Electrum",
@@ -9,10 +16,11 @@
   "block.factech.test": "Test",
   "block.factech.fire_ore": "Fireore",
   "block.factech.siliconore": "Silicon Ore",
-  "item.factech.silveringot": "Silver",
-  "item.factech.electrumingot": "Electrum",
+  "block.factech.earthore": "Earth Ore",
+  "item.factech.elementiumorbe": "Elementium Orbe",
   "block.factech.copperore": "Copper Ore",
+  "item.factech.watergem": "Water Gem",
   "item.factech.copperingot": "Copper",
-  "block.factech.copperoreblock": "Block of Copper",
-  "block.factech.uraniumore": "Uranium Ore"
+  "block.factech.airore": "Air Ore",
+  "item.factech.earthgem": "Earthgem"
 }

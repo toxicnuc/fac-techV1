@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "factech:blocks/water_ore_template",
+    "up": "factech:blocks/water_ore_template",
+    "north": "factech:blocks/water_ore_template",
+    "east": "factech:blocks/water_ore_template",
+    "south": "factech:blocks/water_ore_template",
+    "west": "factech:blocks/water_ore_template",
+    "particle": "factech:blocks/water_ore_template"
+  }
+}

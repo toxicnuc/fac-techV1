@@ -1,0 +1,27 @@
+{
+  "group": "factech",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "3 5",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "factech:aerialgem"
+    },
+    "3": {
+      "item": "factech:firegem"
+    },
+    "5": {
+      "item": "factech:watergem"
+    },
+    "7": {
+      "item": "factech:earthgem"
+    }
+  },
+  "result": {
+    "item": "factech:elementiumorbe",
+    "count": 1
+  }
+}
